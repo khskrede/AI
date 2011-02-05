@@ -1,8 +1,0 @@
-Plotting of evolutionary algorithm with settings: 
-1: Size of child pool: 300
-2: Size of adult pool: 300
-3: number of generations: 300
-4: mutation rate: 0.1
-5: selection protocol: Full generational replacement
-6: selection strategy: Rank selection
-7: Temperature: 3
