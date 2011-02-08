@@ -18,16 +18,21 @@ Individual::Init() {
 
 Individual::Individual( bool* genotype ) {
    m_fitness=0;
-	for (int i = 0; i < m_genolength; i++) {
-		m_genotype[i] = genotype[i];
-	}
+   for (int i = 0; i < m_genolength; i++) {
+      m_genotype[i] = genotype[i];
+   }
 }
 
 void 
 Individual::Develop() {
    /* Implement algorithm to develop genotypes into phenotypes */
-   for( int i = 0; i<m_genolength; i++ ) {
-      m_phenotype[i] = m_genotype[i];
+   for( int i = 0; i<m_phenolength; i++ ) {
+      m_phenotype[i]=0;
+      for (int j = 0; j<4; j++) {
+	 if (m_genotype[i*4+j]) {
+	    m_phenotype[i]++;
+	 }
+      }
    }
 }
 
@@ -36,7 +41,7 @@ Individual::Evaluate() {
    /* Evaluate fitness */
    m_fitness=0;
    for( int i = 0; i < m_phenolength; i++ ) {
-      if (m_phenotype[i]) m_fitness++;
+      m_fitness+=m_phenotype[i];
    }
 }
 
@@ -50,18 +55,18 @@ Individual::Mutate() {
 Individual
 Individual::Reproduce(Individual mate) {
 
-	if (mate.GetReproduced()) {
-		for ( int i=0; i<m_genolength; i++ )
-			m_mask[i] = mate.GetMask()[i];
-		mate.SetReproduced(false); 
-	}
-	else {
-		SetReproduced(true);
-		for( int i = 0; i<m_genolength; i++ )
-			m_mask[i] = rand() % 2 == 1;
-	}
-	
-	bool *mategeno = mate.GetGenotype();
+   if (mate.GetReproduced()) {
+      for ( int i=0; i<m_genolength; i++ )
+	 m_mask[i] = mate.GetMask()[i];
+      mate.SetReproduced(false); 
+   }
+   else {
+      SetReproduced(true);
+      for( int i = 0; i<m_genolength; i++ )
+	 m_mask[i] = rand() % 2 == 1;
+   }
+
+   bool *mategeno = mate.GetGenotype();
    bool new_genotype[m_genolength];
    for( int i = 0; i<m_genolength; i++ ) {
       new_genotype[i] = 
@@ -74,11 +79,6 @@ Individual::Reproduce(Individual mate) {
 float 
 Individual::GetFitness() {
    return m_fitness;
-}
-
-bool*
-Individual::GetPhenotype() {
-	return m_phenotype;
 }
 
 bool*

@@ -2,7 +2,17 @@
 #include "basicea.h"
 #include "strategies.h"
 
-BasicEA::BasicEA(unsigned int children_size, unsigned int adults_size, unsigned int generations, float mutation_rate, unsigned int selection, unsigned int reproduction, float temperature) {
+BasicEA::BasicEA(unsigned int children_size, 
+					  unsigned int adults_size, 
+					  unsigned int generations, 
+					  float mutation_rate, 
+					  float crossover_rate, 
+					  unsigned int selection, 
+					  unsigned int reproduction, 
+					  unsigned int elitism,
+					  float temperature,
+					  unsigned int tournaments) {
+						  
 	m_generations = generations;	
 	
 	void (*selection_strat)( Population &pop );
@@ -29,12 +39,23 @@ BasicEA::BasicEA(unsigned int children_size, unsigned int adults_size, unsigned 
 					break;
 		case 4 : reproduction_strat = Strategies::RankSelection;
 					break;
+		case 5 : reproduction_strat = Strategies::TournamentSelection;
+					break;
 					
 		default : reproduction_strat = Strategies::FitnessProportionate;
 					break;
 	}
 	
-	m_population = new Population(children_size, adults_size, mutation_rate, selection_strat, reproduction_strat, temperature);
+	m_population = new Population(children_size, 
+											adults_size, 
+											mutation_rate, 
+											crossover_rate, 
+											selection_strat, 
+											reproduction_strat, 
+											elitism,
+											temperature,
+											tournaments);
+	
 	out_file.open("data/ea.data", std::ios::out);
 }
 

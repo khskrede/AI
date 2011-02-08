@@ -16,7 +16,17 @@ class BasicEA {
 	
 	public:
    
-	BasicEA(unsigned int children_size, unsigned int adults_size, unsigned int generations, float mutation_rate, unsigned int selection, unsigned int reproduction, float temperature);
+	BasicEA(unsigned int children_size, 
+			  unsigned int adults_size, 
+			  unsigned int generations, 
+			  float mutation_rate, 
+			  float crossover_rate, 
+			  unsigned int selection, 
+			  unsigned int reproduction, 
+			  unsigned int elitism, 
+			  float temperature,
+			  unsigned int tournaments);
+			  
 	~BasicEA();
 
 	void Run();
