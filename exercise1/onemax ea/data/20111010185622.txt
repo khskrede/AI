@@ -1,0 +1,16 @@
+
+*******************
+Plotting of evolutionary algorithm with settings: 
+*******************
+
+1: Size of child pool: 7
+2: Size of adult pool: 7
+3: number of generations: 99
+4: mutation rate: 0.3
+5: crossover rate: 0.6
+6: selection protocol: Full generational replacement
+7: selection strategy: Fitness proportionate
+8: elitism: 2
+
+*******************
+

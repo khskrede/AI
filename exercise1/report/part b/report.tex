@@ -1,0 +1,111 @@
+\documentclass[11pt]{article}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[small]{caption2}
+\renewcommand{\baselinestretch}{1.0}
+\title{Project 1}
+\author{Knut Halvor Skrede}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{2ex} 
+\begin{document}
+\maketitle
+\clearpage
+
+\section*{Part B)}
+
+\subsection*{Problem representation}
+
+\subsubsection*{Genotypes and phenotypes}
+
+The genotype is represented as an array of $B*S$ boolean values (where $S$ is the number of available
+soldiers and $B$ is the number of battles.) The genotype was chosen such that no genes would be "worth"
+more soldiers than others.
+
+A restriction is set on the genotype to contain exactly $S$ true values. The genotype is initialized 
+such that each boolean of the genotype has a probability of $1/B$ chance of being true.
+
+The phenotype is represented as an array of $B$ integers. These integers represent how many troops 
+the colonel shows up with at each battle.
+
+\subsubsection*{Crossover}
+
+The crossover is done by finding all places where in the genotype array individual 1 is true and individual 2 is not.
+And then finding all places where in the genotype array individual 2 is true and individual 1 is not. Then using this
+information to randomly construct a bit-mask to be used in the crossover.
+
+\subsubsection*{Mutation}
+
+Mutation is done by selecting two random places in the genotype that has different values, and switching places.
+This guarantees that there will still be $S$ troops.
+
+\subsubsection*{Evaluation}
+
+The evaluation is done exactly as proposed by the assignment.
+
+\subsubsection*{Strategy entropy}
+
+The average strategy entropy is calculated as proposed by the assignment and plotted along with the 
+fitness plots.
+
+\subsection*{EA settings}
+
+The settings used for all ea runs:\\
+\\
+Size of child pool: 30\\
+Size of adult pool: 30\\
+number of generations: 200\\
+mutation rate: 1\\
+crossover rate: 0.9\\
+selection protocol: Full generational replacement\\
+selection strategy: Sigma scaling\\
+elitism: 2\\
+
+\subsection*{Table of strategies and results}
+
+\begin{figure}[ht]
+
+\begin{tabular}{c|c|c|c|c}
+\hline\hline
+B & Rf & Lf & Shifts between \\
+\hline
+5 & 1.0 & 0.0 &  Basicly no shifting\\
+5 & 0.0 & 1.0 &  Basicly no shifting\\
+5 & 1.0 & 1.0 &  Basicly no shifting\\
+\hline
+20 & 1.0 & 0.0 &  Basicly no shifting\\
+20 & 0.0 & 1.0 &  Basicly no shifting\\
+20 & 1.0 & 1.0 &  Basicly no shifting\\
+\hline
+5 & 0.0 & 0.0 & Basicly no shifting \\
+8 & 0.0 & 0.0 & Basicly no shifting \\
+11 & 0.0 & 0.0 & 2 basic groups \\
+14 & 0.0 & 0.0 & 3 basic groups \\
+17 & 0.0 & 0.0 &  A variety of groups\\
+20 & 0.0 & 0.0 & A variety of groups\\
+\hline
+15 & 1.0 & 1.0 &  Basicly no shifting\\
+15 & 0.7 & 0.0 &  Basicly no shifting\\
+15 & 0.0 & 7.0 &  Basicly no shifting\\
+15 & 0.5 & 0.5 &  Basicly no shifting\\
+\hline
+8 & 0.0 & 1.0 &  Basicly no shifting\\
+8 & 1.0 & 0.0 &  Basicly no shifting\\
+8 & 1.0 & 1.0 &  Basicly no shifting\\
+\hline
+\end{tabular}
+
+\caption{Example of }
+\label{fig:1}
+\end{figure}
+
+\subsection*{descriptions of the 3 signature cases}
+
+All the runs resulted in converging results.
+Don't have time to add fintess plots. The plots for
+all runs are included in a zip file.
+The plots are named {B-Rf-Lf}.png, they should correspond
+to the table above.
+
+\end{document}
+
+

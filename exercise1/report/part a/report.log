@@ -1,0 +1,210 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2010.9.6)  11 FEB 2011 23:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/share/texmf-texlive/tex/latex/caption/caption2.sty
+Package: caption2 2008/07/01 v2.2c Customising captions (AS)
+
+
+Package caption2 Warning: ****************************************************
+(caption2)                THIS PACKAGE IS OBSOLETE:
+(caption2)                This package attempts to provide an `caption2'
+(caption2)                package v2.0/2.1 author environment so that OLD
+(caption2)                documents can be successfully processed. It should
+(caption2)                NOT be used for NEW documents! New documents should
+(caption2)                use the regular `caption' package v3.x instead.
+(caption2)                ****************************************************
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input lin
+e 209.
+\captionlinewidth=\dimen111
+\realcaptionwidth=\dimen112
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count88
+\scratchdimen=\dimen113
+\scratchbox=\box26
+\nofMPsegments=\count89
+\nofMParguments=\count90
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count91
+\MPscratchDim=\dimen114
+\MPnumerator=\count92
+\everyMPtoPDFconversion=\toks16
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<images/classes.png, id=8, 1003.75pt x 821.0675pt>
+File: images/classes.png Graphic file (type png)
+ <use images/classes.png>
+[2
+
+ <./images/classes.png>] [3] [4] <images/11.png, id=22, 803.0pt x 602.25pt>
+File: images/11.png Graphic file (type png)
+
+<use images/11.png> <images/12.png, id=23, 803.0pt x 602.25pt>
+File: images/12.png Graphic file (type png)
+
+<use images/12.png> <images/21.png, id=24, 803.0pt x 602.25pt>
+File: images/21.png Graphic file (type png)
+
+<use images/21.png> <images/22.png, id=25, 803.0pt x 602.25pt>
+File: images/22.png Graphic file (type png)
+
+<use images/22.png> [5] <images/31.png, id=29, 803.0pt x 602.25pt>
+File: images/31.png Graphic file (type png)
+
+<use images/31.png> <images/32.png, id=30, 803.0pt x 602.25pt>
+File: images/32.png Graphic file (type png)
+
+<use images/32.png> <images/41.png, id=31, 803.0pt x 602.25pt>
+File: images/41.png Graphic file (type png)
+
+<use images/41.png> <images/42.png, id=32, 803.0pt x 602.25pt>
+File: images/42.png Graphic file (type png)
+
+<use images/42.png> <images/sig1.png, id=33, 803.0pt x 602.25pt>
+File: images/sig1.png Graphic file (type png)
+
+<use images/sig1.png> <images/sig2.png, id=34, 803.0pt x 602.25pt>
+File: images/sig2.png Graphic file (type png)
+
+<use images/sig2.png> <images/bol1.png, id=35, 803.0pt x 602.25pt>
+File: images/bol1.png Graphic file (type png)
+
+<use images/bol1.png> <images/bol2.png, id=36, 803.0pt x 602.25pt>
+File: images/bol2.png Graphic file (type png)
+
+<use images/bol2.png> <images/ran1.png, id=37, 803.0pt x 602.25pt>
+File: images/ran1.png Graphic file (type png)
+
+<use images/ran1.png> <images/ran2.png, id=38, 803.0pt x 602.25pt>
+File: images/ran2.png Graphic file (type png)
+
+<use images/ran2.png> <images/tou1.png, id=39, 803.0pt x 602.25pt>
+File: images/tou1.png Graphic file (type png)
+
+<use images/tou1.png> <images/tou2.png, id=40, 803.0pt x 602.25pt>
+File: images/tou2.png Graphic file (type png)
+
+<use images/tou2.png> [6 <./images/11.png (PNG copy)> <./images/12.png (PNG cop
+y)>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 315.
+
+Overfull \hbox (33.65302pt too wide) in paragraph at lines 312--316
+\OT1/cmr/m/n/10.95 the ar-ray: [1,0,0,0,1,1,0,1,0,1,1,0,0,0,1,1,1,1,0,0,0,1,1,0
+,1,0,1,0,0,0,0,0,1,1,0,1,0,1,1,0]
+ []
+
+[7 <./images/21.png (PNG copy)> <./images/22.png (PNG copy)>] [8 <./images/31.p
+ng (PNG copy)> <./images/32.png (PNG copy)>] [9 <./images/41.png (PNG copy)> <.
+/images/42.png (PNG copy)> <./images/sig1.png (PNG copy)> <./images/sig2.png (P
+NG copy)>] [10 <./images/bol1.png (PNG copy)> <./images/bol2.png (PNG copy)> <.
+/images/ran1.png (PNG copy)> <./images/ran2.png (PNG copy)>] [11 <./images/tou1
+.png (PNG copy)> <./images/tou2.png (PNG copy)>] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 1742 strings out of 495061
+ 25315 string characters out of 1182622
+ 79919 words of memory out of 3000000
+ 4938 multiletter control sequences out of 15000+50000
+ 8811 words of font info for 31 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 36i,6n,38p,702b,262s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+r12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on report.pdf (11 pages, 232077 bytes).
+PDF statistics:
+ 97 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+
