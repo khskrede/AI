@@ -1,0 +1,293 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.2.21)  22 FEB 2011 19:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**report.tex
+(./report.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
+)
+\c@ContinuedFloat=\count88
+) (./report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen111
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen112
+\MPnumerator=\count93
+\everyMPtoPDFconversion=\toks16
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 17.
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no ˆ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+<images/ref.png, id=12, 620.3175pt x 435.6275pt>
+File: images/ref.png Graphic file (type png)
+ <use images/ref.png>
+<images/1-res.png, id=14, 803.0pt x 602.25pt>
+File: images/1-res.png Graphic file (type png)
+ <use images/1-res.png>
+<images/1-fit.png, id=15, 803.0pt x 602.25pt>
+File: images/1-fit.png Graphic file (type png)
+ <use images/1-fit.png>
+Underfull \hbox (badness 10000) in paragraph at lines 89--97
+
+ []
+
+[2] [3 <./images/ref.png> <./images/1-res.png (PNG copy)> <./images/1-fit.png (
+PNG copy)>] <images/2-res.png, id=27, 803.0pt x 602.25pt>
+File: images/2-res.png Graphic file (type png)
+
+<use images/2-res.png> <images/2-fit.png, id=28, 803.0pt x 602.25pt>
+File: images/2-fit.png Graphic file (type png)
+
+<use images/2-fit.png>
+Underfull \hbox (badness 10000) in paragraph at lines 118--126
+
+ []
+
+[4 <./images/2-res.png (PNG copy)> <./images/2-fit.png (PNG copy)>]
+<images/3-res.png, id=34, 803.0pt x 602.25pt>
+File: images/3-res.png Graphic file (type png)
+ <use images/3-res.png>
+<images/3-fit.png, id=35, 803.0pt x 602.25pt>
+File: images/3-fit.png Graphic file (type png)
+ <use images/3-fit.png>
+Underfull \hbox (badness 10000) in paragraph at lines 150--158
+
+ []
+
+[5 <./images/3-res.png (PNG copy)> <./images/3-fit.png (PNG copy)>]
+<images/4-res.png, id=41, 803.0pt x 602.25pt>
+File: images/4-res.png Graphic file (type png)
+ <use images/4-res.png>
+<images/4-fit.png, id=42, 803.0pt x 602.25pt>
+File: images/4-fit.png Graphic file (type png)
+ <use images/4-fit.png>
+Underfull \hbox (badness 10000) in paragraph at lines 179--187
+
+ []
+
+[6 <./images/4-res.png (PNG copy)> <./images/4-fit.png (PNG copy)>]
+<images/5-res.png, id=48, 803.0pt x 602.25pt>
+File: images/5-res.png Graphic file (type png)
+ <use images/5-res.png>
+<images/5-fit.png, id=49, 803.0pt x 602.25pt>
+File: images/5-fit.png Graphic file (type png)
+ <use images/5-fit.png>
+Underfull \hbox (badness 10000) in paragraph at lines 208--216
+
+ []
+
+<images/6-res.png, id=50, 803.0pt x 602.25pt>
+File: images/6-res.png Graphic file (type png)
+ <use images/6-res.png>
+<images/6-fit.png, id=51, 803.0pt x 602.25pt>
+File: images/6-fit.png Graphic file (type png)
+ <use images/6-fit.png> [7 <./images/5-res.png (PNG copy)> <./images/5-fit.png 
+(PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 237--246
+
+ []
+
+<images/7-res.png, id=58, 803.0pt x 602.25pt>
+File: images/7-res.png Graphic file (type png)
+ <use images/7-res.png>
+<images/7-fit.png, id=59, 803.0pt x 602.25pt>
+File: images/7-fit.png Graphic file (type png)
+ <use images/7-fit.png>
+Underfull \hbox (badness 10000) in paragraph at lines 267--275
+
+ []
+
+[8 <./images/6-res.png (PNG copy)> <./images/6-fit.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 286--294
+
+ []
+
+[9 <./images/7-res.png (PNG copy)> <./images/7-fit.png (PNG copy)>]
+<images/8-res.png, id=70, 803.0pt x 602.25pt>
+File: images/8-res.png Graphic file (type png)
+ <use images/8-res.png>
+<images/8-fit.png, id=71, 803.0pt x 602.25pt>
+File: images/8-fit.png Graphic file (type png)
+ <use images/8-fit.png>
+Underfull \hbox (badness 10000) in paragraph at lines 317--325
+
+ []
+
+[10 <./images/8-res.png (PNG copy)> <./images/8-fit.png (PNG copy)>]
+<images/9-res.png, id=77, 803.0pt x 602.25pt>
+File: images/9-res.png Graphic file (type png)
+ <use images/9-res.png>
+<images/9-fit.png, id=78, 803.0pt x 602.25pt>
+File: images/9-fit.png Graphic file (type png)
+ <use images/9-fit.png>
+Underfull \hbox (badness 10000) in paragraph at lines 347--355
+
+ []
+
+<images/10-res.png, id=79, 803.0pt x 602.25pt>
+File: images/10-res.png Graphic file (type png)
+ <use images/10-res.png>
+<images/10-fit.png, id=80, 803.0pt x 602.25pt>
+File: images/10-fit.png Graphic file (type png)
+ <use images/10-fit.png> [11 <./images/9-res.png (PNG copy)> <./images/9-fit.pn
+g (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 379--387
+
+ []
+
+<images/11-res.png, id=86, 803.0pt x 602.25pt>
+File: images/11-res.png Graphic file (type png)
+ <use images/11-res.png>
+<images/11-fit.png, id=87, 803.0pt x 602.25pt>
+File: images/11-fit.png Graphic file (type png)
+ <use images/11-fit.png>
+<images/12-res.png, id=88, 803.0pt x 602.25pt>
+File: images/12-res.png Graphic file (type png)
+ <use images/12-res.png>
+<images/12-fit.png, id=89, 803.0pt x 602.25pt>
+File: images/12-fit.png Graphic file (type png)
+ <use images/12-fit.png> [12 <./images/10-res.png (PNG copy)> <./images/10-fit.
+png (PNG copy)>] [13 <./images/11-res.png (PNG copy)> <./images/11-fit.png (PNG
+ copy)> <./images/12-res.png (PNG copy)> <./images/12-fit.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 420--428
+
+ []
+
+[14] [15] (./report.aux) ) 
+Here is how much of TeX's memory you used:
+ 2057 strings out of 495061
+ 31258 string characters out of 1182621
+ 92895 words of memory out of 3000000
+ 5248 multiletter control sequences out of 15000+50000
+ 8503 words of font info for 30 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 36i,6n,38p,256b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/
+type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on report.pdf (15 pages, 344698 bytes).
+PDF statistics:
+ 138 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+
