@@ -13,7 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-      working-directory: ./exercise1/program/
     - name: make
       run: make
       working-directory: ./exercise1/program/
