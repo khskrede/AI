@@ -7,16 +7,16 @@ on:
     branches: [ "master", "testing-actions" ]
 
 jobs:
-  build1:
+  exercise1-build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - name: make
       run: make
       working-directory: ./exercise1/program/
-  test1:
+  exercise1-test:
     runs-on: ubuntu-latest
-    needs: build1
+    needs: exercise1-build
     steps:
     - uses: actions/checkout@v3
     - name: test
@@ -26,24 +26,24 @@ jobs:
       run: echo "subtask1"
     - name: subtask2
       run: echo "subtask2"
-  build2:
+  blotto-build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - name: make
       run: make
-      working-directory: ./exercise2/prog/
-  test2:
+      working-directory: ./exercise2/blotto/
+  blotto-test:
     runs-on: ubuntu-latest
-    needs: build2
+    needs: blotto-build
     steps:
     - uses: actions/checkout@v3
     - name: test2
       run: echo "testing2"
-      working-directory: ./exercise2/prog/
+      working-directory: ./exercise2/blotto/
   final:
     runs-on: ubuntu-latest
-    needs: ["test1", "test2"]
+    needs: ["exercise1-test", "blotto-test"]
     steps:
     - uses: actions/checkout@v3
     - name: final
