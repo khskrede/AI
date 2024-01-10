@@ -7,12 +7,40 @@ on:
     branches: [ "master", "testing-actions" ]
 
 jobs:
-  build:
-
+  build1:
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: make
       run: make
       working-directory: ./exercise1/program/
+  test1:
+    runs-on: ubuntu-latest
+    needs: build1
+    steps:
+    - uses: actions/checkout@v3
+    - name: test
+      run: echo "testing"
+      working-directory: ./exercise1/program/
+  build2:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: make
+      run: make
+      working-directory: ./exercise2/program/
+  test2:
+    runs-on: ubuntu-latest
+    needs: build2
+    steps:
+    - uses: actions/checkout@v3
+    - name: test2
+      run: echo "testing2"
+      working-directory: ./exercise2/program/
+  final:
+    runs-on: ubuntu-latest
+    needs: test1, test2
+    steps:
+    - uses: actions/checkout@v3
+    - name: final
+      run: echo "Final"
