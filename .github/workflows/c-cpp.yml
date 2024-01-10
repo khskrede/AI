@@ -1,0 +1,50 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "master", "testing-actions" ]
+  pull_request:
+    branches: [ "master", "testing-actions" ]
+
+jobs:
+  exercise1-build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: make
+      run: make
+      working-directory: ./exercise1/program/
+  exercise1-test:
+    runs-on: ubuntu-latest
+    needs: exercise1-build
+    steps:
+    - uses: actions/checkout@v3
+    - name: test
+      run: echo "testing"
+      working-directory: ./exercise1/program/
+    - name: subtask1
+      run: echo "subtask1"
+    - name: subtask2
+      run: echo "subtask2"
+  blotto-build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: make
+      run: make
+      working-directory: ./exercise1/blotto/
+  blotto-test:
+    runs-on: ubuntu-latest
+    needs: blotto-build
+    steps:
+    - uses: actions/checkout@v3
+    - name: test2
+      run: echo "testing2"
+      working-directory: ./exercise1/blotto/
+  final:
+    runs-on: ubuntu-latest
+    needs: ["exercise1-test", "blotto-test"]
+    steps:
+    - uses: actions/checkout@v3
+    - name: final
+      run: echo "Final"
